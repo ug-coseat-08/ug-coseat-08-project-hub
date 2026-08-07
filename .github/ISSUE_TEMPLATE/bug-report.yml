@@ -1,0 +1,47 @@
+name: Bug report
+description: Record a reproducible problem in an authorised application or project workflow.
+title: "[Bug]: "
+labels: []
+body:
+  - type: input
+    id: application
+    attributes:
+      label: Application or repository
+      placeholder: Name and authorised repository link
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Describe the observed behaviour and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+      description: Use approved test data and redact sensitive values.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Provide sanitised logs, screenshots, test output, environment details, or related links.
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Fix acceptance criteria
+    validations:
+      required: true
+  - type: textarea
+    id: security
+    attributes:
+      label: Security and privacy impact
