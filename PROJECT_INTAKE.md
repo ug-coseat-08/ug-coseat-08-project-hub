@@ -6,7 +6,7 @@ Use this register during client and supervisor discussions. Record confirmed inf
 
 | Question | Current answer | Status | Source or evidence |
 |---|---|---|---|
-| What outcome should be demonstrated at the end of Semester 2? | Alpha release; exact scope TBD | Partially confirmed | [Week 1 supervisor meeting](meeting-minutes/2026-08-07-supervisor-meeting.md) |
+| What outcome should be demonstrated at the end of Semester 2? | Alpha release; exact scope TBD | Partially confirmed | [Week 1 supervisor meeting](meeting-minutes/supervisor/2026-08-07-supervisor-meeting.md) |
 | What is the minimum acceptable alpha release? | TBD | Open | First client meeting |
 | Is the team reviewing applications, completing applications, or both? | TBD | Open | First client meeting |
 | Which application or workflow has the highest priority? | TBD | Open | First client meeting |
