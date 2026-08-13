@@ -12,13 +12,13 @@ Technical coordination and shared project records for **Portfolio Rescue & Resil
 | Supervisor | Dr Naveed Ali |
 | Client representative | Md Shaik Said |
 | Current phase | Preparation and client discovery |
-| Current status | Initial project hub established; client scope and technical inventory remain to be confirmed |
+| Current status | First client discovery recorded; four initial application categories identified; repository access and per-application scope remain pending |
 
 ## Purpose
 
-This private repository provides one shared location for meeting records, confirmed requirements, decisions, risks, contribution evidence, and project working practices. The team also intends to mirror agreed project records to OneDrive. The mirroring process and the delivery board—GitHub or Jira—will be confirmed with the team and supervisor.
+This private GitHub repository is the complete shared, versioned record for meeting records, confirmed requirements, decisions, risks, contribution evidence, and project working practices. Jira is the operational delivery board, while Confluence provides a readable navigation and collaboration hub.
 
-The repository does not contain client application source code. Application ownership, repository access, technology stacks, infrastructure, datasets, and final priorities remain to be confirmed with the client.
+The repository does not contain client application source code. The client intends to grant access to four initial application organisations/repositories; exact names, technologies, infrastructure, datasets, priorities, and acceptance criteria remain to be confirmed through discovery.
 
 ## Team
 
@@ -33,12 +33,13 @@ See [TEAM.md](TEAM.md) for the working team register.
 
 ## Current priorities
 
-1. Arrange and prepare for the first client meeting.
-2. Confirm the desired semester outcome and minimum acceptable alpha release.
-3. Clarify the existing applications, codebase boundaries, incomplete workflows, and client priorities.
-4. Confirm the delivery board and document-mirroring process.
-5. Agree workstreams and responsibilities after client discovery.
-6. Prepare individual five-minute progress demonstrations for the next supervisor meeting.
+1. Have Mohita review and email the first client meeting minutes; retain the actual email wording when supplied.
+2. Send all six GitHub identifiers and obtain access to the four initial client applications and available documentation.
+3. Run each application locally, inventory its architecture and gaps, and propose small per-application modernisation outcomes.
+4. Reconcile the client's production-readiness goal with the semester alpha target and refine `UGC08-3` without inventing scope.
+5. Create a draft Jira backlog and week-by-week delivery proposal from confirmed discovery evidence.
+6. Schedule the first fortnightly technical meeting with Ishtiaq Ahmad Anan and prepare a focused agenda.
+7. Agree application assignments and review responsibilities after repository discovery.
 
 ## Project records
 
@@ -50,12 +51,21 @@ See [TEAM.md](TEAM.md) for the working team register.
 - [Meeting register](MEETINGS.md)
 - [Contribution workflow](CONTRIBUTING.md)
 - [Security guidance](SECURITY.md)
+- [AI usage log](AI_USAGE_LOG.md)
+- [Agent knowledge base](knowledge-base/README.md)
+- [Agent instructions](AGENTS.md)
+
+## Connected tools
+
+- [Jira UGC08 backlog](https://ugcoseat08.atlassian.net/jira/software/projects/UGC08/boards/1/backlog) — operational work tracking.
+- [Confluence project hub](https://ugcoseat08.atlassian.net/wiki/spaces/UGC08/pages/65838/UG_COSEAT_08+Project+Hub) — navigation and collaboration.
+- [GitHub project hub](https://github.com/ug-coseat-08/ug-coseat-08-project-hub) — canonical versioned records.
 
 ## Working workflow
 
 1. Record a clear task with an expected result and acceptance criteria.
 2. Nominate one primary owner and a separate reviewer where practical.
-3. Create a short-lived branch from the latest `main`.
+3. Create a short-lived branch from the latest `main`, using the Jira key where available.
 4. Make a focused change using descriptive commits.
 5. Open a pull request and link the task.
 6. Provide test results, screenshots, notes, or other relevant evidence.

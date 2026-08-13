@@ -1,6 +1,7 @@
-## Linked task
+## Linked work
 
-Closes #
+- Jira: UGC08-
+- GitHub issue (if used): Closes #
 
 ## Objective
 
