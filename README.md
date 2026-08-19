@@ -11,14 +11,14 @@ Technical coordination and shared project records for **Portfolio Rescue & Resil
 | Semester | Semester 2, 2026 |
 | Supervisor | Dr Naveed Ali |
 | Client representative | Md Shaik Said |
-| Current phase | Preparation and client discovery |
-| Current status | First client discovery recorded; four initial application categories identified; repository access and per-application scope remain pending |
+| Current phase | Repository discovery and local verification |
+| Current status | Repository access received and all twelve organisation repositories verified on 2026-08-20; application-to-repository mapping proposed; per-application scope pending client confirmation |
 
 ## Purpose
 
 This private GitHub repository is the complete shared, versioned record for meeting records, confirmed requirements, decisions, risks, contribution evidence, and project working practices. Jira is the operational delivery board, while Confluence provides a readable navigation and collaboration hub.
 
-The repository does not contain client application source code. The client intends to grant access to four initial application organisations/repositories; exact names, technologies, infrastructure, datasets, priorities, and acceptance criteria remain to be confirmed through discovery.
+The repository does not contain client application source code. The client granted access to its GitHub organisation on 2026-08-20 and all twelve repositories were cloned and verified; the consolidated evidence is recorded in the [repository state summary](discovery/2026-08-20-repository-state.md). Priorities, infrastructure access, and acceptance criteria remain to be confirmed through discovery.
 
 ## Team
 
@@ -33,13 +33,13 @@ See [TEAM.md](TEAM.md) for the working team register.
 
 ## Current priorities
 
-1. Have Mohita review and email the first client meeting minutes; retain the actual email wording when supplied.
-2. Send all six GitHub identifiers and obtain access to the four initial client applications and available documentation.
-3. Run each application locally, inventory its architecture and gaps, and propose small per-application modernisation outcomes.
-4. Reconcile the client's production-readiness goal with the semester alpha target and refine `UGC08-3` without inventing scope.
-5. Create a draft Jira backlog and week-by-week delivery proposal from confirmed discovery evidence.
-6. Schedule the first fortnightly technical meeting with Ishtiaq Ahmad Anan and prepare a focused agenda.
-7. Agree application assignments and review responsibilities after repository discovery.
+1. Privately report the exposed credentials found in `Project-B`, `propcalc`, and `backend` to the client through Mohita, without opening, using, or reproducing any values.
+2. Send the client the local-setup milestone update and record the wording actually sent.
+3. Hold the proposed client meeting on Tuesday, 25 August 2026 at 8:30 PM; confirm the application-to-repository mapping, per-application priorities, environments, and acceptance evidence.
+4. Keep `UGC08-3` blocked until the client confirms priorities and acceptance criteria, then convert the state-report findings into agreed work.
+5. Complete the six individual research reports by 2026-08-30.
+6. Obtain the five missing Atlassian email addresses and finish team access and assignment.
+7. Agree application assignments and review responsibilities from the verified repository evidence.
 
 ## Project records
 
