@@ -1,0 +1,18 @@
+# AI Usage Log
+
+This log records material AI assistance used to create or shape project records and deliverables. It supports transparency and human accountability; it is not evidence that an output is correct or approved.
+
+| ID | Date | Tool | Responsible student | Purpose and meaningful method | Human modification | Verification | Supervisor/client confirmation |
+|---|---|---|---|---|---|---|---|
+| AI-001 | 2026-08-13 | OpenAI Codex | Md Mudabbirul Islam Saad | Analysed the versioned project hub and previously verified Jira, Confluence, GitHub, and Canvas project state to draft a repository agent skill, knowledge base, validator, and aligned workflow guidance. Prompts requested a maintainable agent that understands the repository and team practice. | Draft structure and wording must be reviewed and adjusted by the project team before adoption. Unsupported client scope was deliberately retained as unknown. | Cross-checked against canonical root records, service state, repository metadata, link validation, and the project-hub validator. Final human review remains required. | Pending |
+| AI-002 | 2026-08-13 | OpenAI Codex | Md Mudabbirul Islam Saad | Extracted local audio from the first client-meeting recording, generated a timestamped transcript and captions, reviewed the transcript and video attendance frames, and drafted concise client minutes plus evidence-backed updates to intake, requirements, decisions, risks, team status, and project summaries. | Mohita Mittal and the project team must review names, technical interpretation, actions, and the client-facing wording. Mohita's actual email/template has not been invented and remains to be supplied. | Audio duration matched the source; 626 transcript/caption segments were generated; attendance and key statements were cross-checked against video frames; JSON, local links, tracked-file guardrails, sensitive-pattern output, and the project-hub validator passed. Human/client review remains required. | Pending client/team review |
+| AI-003 | 2026-08-13 | OpenAI Codex | Md Mudabbirul Islam Saad | Re-read the four local meeting transcripts in chronological order, connected later answers to earlier actions, removed repetition and internal workflow language from all four meeting records, and corrected discovery items that the combined meetings had already resolved. | Saad requested a shorter, more natural style and identified the need to remove unnecessary unresolved questions. The team must still check the final wording and attribution against its understanding of the meetings. | Compared every revised record with its full transcript, checked later meetings against earlier decisions, reviewed linked intake and requirement records, and ran the project-hub validation. | Pending team review |
+
+## Entry rules
+
+- Add an entry when AI materially shapes analysis, wording, code, plans, evidence organisation, or a submitted artefact.
+- Record the actual responsible student; an AI tool cannot own or approve work.
+- Summarise meaningful prompts or methods without exposing credentials, private data, or protected content.
+- State what humans changed and how they verified the result.
+- Keep confirmation `Pending` until the relevant person explicitly confirms the intended use.
+- Link the entry ID from the affected deliverable when useful.

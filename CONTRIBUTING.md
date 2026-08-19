@@ -10,25 +10,27 @@
 
 Use one short-lived branch for each coherent change:
 
-- `feat/<task-number>-<description>`
-- `fix/<task-number>-<description>`
-- `docs/<task-number>-<description>`
-- `test/<task-number>-<description>`
-- `research/<task-number>-<description>`
-- `chore/<task-number>-<description>`
+- `feat/UGC08-<number>-<description>`
+- `fix/UGC08-<number>-<description>`
+- `docs/UGC08-<number>-<description>`
+- `test/UGC08-<number>-<description>`
+- `research/UGC08-<number>-<description>`
+- `chore/UGC08-<number>-<description>`
 
 Do not use permanent personal branches, a permanent `develop` branch, or shared branches that obscure ownership.
 
 ## Commits
 
 - Commit through your own Git identity.
+- Start the subject with the Jira key where one exists, for example `UGC08-12 record client decisions`.
 - Use short, descriptive messages that explain the completed change.
 - Keep unrelated work in separate commits and pull requests.
 - Never rewrite another student's authorship or fabricate contribution history.
 
 ## Pull requests
 
-- Link the relevant task or issue.
+- Start the title with the Jira key, for example `[UGC08-12] Record client discovery`.
+- Link the Jira work item and any supporting GitHub issue.
 - Explain what changed and why.
 - State the affected application or project record.
 - Include commands run and their results.
