@@ -4,8 +4,8 @@
 |---|---|
 | Date and time | Tuesday, 18 August 2026 (time not recorded in the source notes) |
 | Channel | Online group meeting |
-| Attendees | TBD — the source notes refer to the team but do not name attendees |
-| Absent | TBD — to be confirmed against the recording |
+| Attendees | Prattay Banik; Mohita Mittal; Cong Huan Nguyen; Unna Nusen; Le Bao Tran Pham; Md Mudabbirul Islam Saad |
+| Absent | None |
 
 ## Agenda
 
@@ -20,7 +20,7 @@ Project progress, client communication, repository access, the individual resear
 - Despite the missing information, the team agreed to begin preparing the report using the information already available. Each member should review the project description and the first client-meeting minutes, extract the confirmed requirements, research relevant technologies and approaches, find credible references, and prepare questions or unclear areas for the Thursday supervisor meeting.
 - Internal project preparation is otherwise on track: the Jira/project-management setup has been created, the previous client-meeting minutes have been maintained, and the general project description and approximate four-application scope are understood. Detailed technical planning cannot be finalised until the existing systems can be properly reviewed.
 - The team noted that the client may still be refining exactly what it wants from the project, which makes early technical planning difficult.
-- There was no client meeting that week. Because the client requested meetings approximately every fortnight, the team agreed that the next client meeting should take place the following week, proposed for Tuesday, 25 August 2026 at 8:30 PM. Members present indicated that time was suitable, and the meeting can be booked even if repository access has not been restored.
+- There was no client meeting that week. Because the client requested meetings approximately every fortnight, the team agreed that the next client meeting should take place the following week, proposed for Tuesday, 25 August 2026 at 8:30 PM. The team indicated that time was suitable, and the meeting can be booked even if repository access has not been restored.
 - Main risks identified: continued repository-access delay, limited client communication, insufficient project-specific information for the research report, reduced development time, work accumulating towards the end of semester, the original scope becoming unrealistic if delays continue, and increased workload pressure from assessments and exams in other final-year units.
 
 ## Decisions and agreements

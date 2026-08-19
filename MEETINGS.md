@@ -18,7 +18,7 @@
 
 | Date | Meeting | Status | Key outcomes | Record |
 |---|---|---|---|---|
-| 2026-08-18 | Internal group meeting | Draft—attendance not named in the source notes; awaiting review | Repository access identified as the main bottleneck; escalation planned for the Thursday supervisor meeting; individual report preparation agreed; next client meeting proposed for 25 August at 8:30 PM | [Minutes](meeting-minutes/group/2026-08-18-group-meeting.md) |
+| 2026-08-18 | Internal group meeting | Complete—six members present, none absent | Repository access identified as the main bottleneck; escalation planned for the Thursday supervisor meeting; individual report preparation agreed; next client meeting proposed for 25 August at 8:30 PM | [Minutes](meeting-minutes/group/2026-08-18-group-meeting.md) |
 
 ## Meeting record standard
 
