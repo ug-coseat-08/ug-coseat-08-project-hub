@@ -14,6 +14,12 @@
 | 2026-08-13 | Supervisor meeting | Complete—six members present, none absent | First client meeting preparation; research report requirements; draft Jira backlog due next week; concise minute standard confirmed | [Minutes](meeting-minutes/supervisor/2026-08-13-supervisor-meeting.md) |
 | 2026-08-13 | First client meeting | Draft—all six team members present; awaiting review and email to the client | Four initial applications; delivery process; fortnightly developer meetings; repository access and local setup | [Minutes](meeting-minutes/client/2026-08-13-client-meeting.md) |
 
+## Week 3
+
+| Date | Meeting | Status | Key outcomes | Record |
+|---|---|---|---|---|
+| 2026-08-18 | Internal group meeting | Complete—six members present, none absent | Repository access identified as the main bottleneck; escalation planned for the Thursday supervisor meeting; individual report preparation agreed; next client meeting proposed for 25 August at 8:30 PM | [Minutes](meeting-minutes/group/2026-08-18-group-meeting.md) |
+
 ## Meeting record standard
 
 Use one concise, consistent template for supervisor, client, and internal meetings. Each record should include:
