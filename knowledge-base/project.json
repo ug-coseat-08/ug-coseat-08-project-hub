@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-08-13",
+  "reviewed_on": "2026-08-20",
   "timezone": "Australia/Sydney",
   "project": {
     "code": "UG_COSEAT_08",
     "title": "Portfolio Rescue & Resilient AI Integration",
     "unit": "COS40005",
     "teaching_period": "Semester 2 2026",
-    "phase": "Preparation and client discovery",
+    "phase": "Repository discovery and local verification",
     "supervisor": "Dr Naveed Ali",
     "client_representative": "Md Shaik Said",
     "first_client_meeting_on": "2026-08-13",
     "delivery_direction": "Rescue and modernise four initial existing web applications through a complete, approved production-readiness lifecycle.",
-    "scope_status": "High-level direction confirmed; repository access, per-application priorities, acceptance criteria, and semester scope remain pending."
+    "scope_status": "Repository access confirmed and all twelve organisation repositories verified on 2026-08-20; application-to-repository mapping proposed; client confirmation, per-application priorities, acceptance criteria, and semester scope remain pending."
   },
   "team": [
     {"name": "Prattay Banik", "github": "prattaybanik03"},
@@ -73,8 +73,8 @@
     "Semester 1 2027 implementation scope is not approved."
   ],
   "pending_confirmations": [
-    "Exact names and repository locations for the four initial applications",
-    "Repository, documentation, development-environment, and production-process access",
+    "Client confirmation of the proposed application-to-repository mapping and the scope of the five coupon repositories",
+    "Development-environment (VM), production-process, and any remaining documentation access",
     "Per-application priorities, modernisation scope, end users, constraints, and acceptance criteria",
     "Alignment between the client's production-readiness goal and the supervisor's semester alpha expectation",
     "Technical architecture and technology choices",

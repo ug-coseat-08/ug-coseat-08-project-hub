@@ -1,6 +1,6 @@
 # Current Project State
 
-**Reviewed:** 2026-08-13
+**Reviewed:** 2026-08-20
 **Timezone:** Australia/Sydney
 **Confidence:** Evidence-backed summary; unresolved items remain explicit.
 
@@ -8,13 +8,13 @@
 
 - **Project:** UG_COSEAT_08 — Portfolio Rescue & Resilient AI Integration
 - **Unit:** COS40005, Semester 2 2026
-- **Current phase:** Preparation and client discovery
+- **Current phase:** Repository discovery and local verification
 - **Supervisor:** Dr Naveed Ali
 - **Client representative:** Md Shaik Said
 - **Delivery direction:** Rescue and modernise an initial set of existing client web applications through local setup, gap analysis, small approved development, testing, defect correction, and an approved deployment lifecycle.
-- **Scope status:** Four initial application categories are identified, but exact repositories, technologies, priorities, per-application scope, production authority, and acceptance criteria are not yet confirmed.
+- **Scope status:** All twelve organisation repositories were accessed and verified on 2026-08-20. The four application categories now map to specific repositories, but the mapping is proposed rather than client-confirmed, and priorities, per-application scope, production authority, and acceptance criteria are not yet agreed.
 
-At the first client meeting on 2026-08-13, the client directed the team to begin with four applications: algorithmic trading, lead-generation coupons, property-portfolio calculations, and an Airtasker-like task marketplace. Other applications were mentioned for later, but they are not part of the current working set. The requested approach is to choose small improvements and complete the full path from local setup through testing and controlled deployment. `UGC08-3` remains blocked until access, per-application priorities, acceptance criteria, and a realistic semester scope are documented.
+At the first client meeting on 2026-08-13, the client directed the team to begin with four applications: algorithmic trading, lead-generation coupons, property-portfolio calculations, and an Airtasker-like task marketplace. Other applications were mentioned for later, but they are not part of the current working set. On 2026-08-20 the team received and verified access to all twelve repositories in the client's GitHub organisation; every repository was cloned, installed, and tested, and the consolidated evidence is recorded in the [repository state summary](../discovery/2026-08-20-repository-state.md). The proposed mapping is coupons ("CuponZ") to five repositories, the ConnectMyTask marketplace to three, PropCalc to one, and trading to `Project-B`, which currently exists only as a zip archive containing files that look like real credentials. `UGC08-3` remains blocked until the client confirms the mapping and per-application priorities, acceptance criteria, and a realistic semester scope are agreed.
 
 ## Team and verified GitHub identities
 
@@ -33,7 +33,7 @@ Mohita Mittal is the initial Scrum Master. Technical workstreams remain provisio
 
 | Service | Role | Location or status |
 |---|---|---|
-| GitHub | Canonical versioned project record | [ug-coseat-08-project-hub](https://github.com/ug-coseat-08/ug-coseat-08-project-hub), private, default branch `main` |
+| GitHub | Canonical versioned project record | [ug-coseat-08-project-hub](https://github.com/ug-coseat-08/ug-coseat-08-project-hub), private, default branch `main`; client repositories at [github.com/ug-coseat-08](https://github.com/orgs/ug-coseat-08/repositories), access verified 2026-08-20 |
 | Jira | Operational backlog, ownership, status, and delivery flow | [UGC08 backlog](https://ugcoseat08.atlassian.net/jira/software/projects/UGC08/boards/1/backlog) |
 | Confluence | Human-readable navigation and collaboration hub | [UG_COSEAT_08 Project Hub](https://ugcoseat08.atlassian.net/wiki/spaces/UGC08/pages/65838/UG_COSEAT_08+Project+Hub) |
 | Canvas | Unit requirements, assessment briefs, policy, and submission | Access-controlled university source; do not copy protected content into this repository |
@@ -64,11 +64,10 @@ Dates should be rechecked against Canvas before submission because Canvas remain
 
 ## Immediate priorities and blockers
 
-1. Have Mohita review and email the first client meeting minutes; retain the supplied client-email template without inventing its wording.
-2. Send the team's GitHub identifiers, obtain access to the four initial applications and documentation, and run each application locally.
-3. Inventory applications, users, gaps, environment constraints, and small modernisation options; agree per-application acceptance evidence.
-4. Reconcile the client's production-readiness goal with the semester alpha target and refine `UGC08-3` only to the extent supported by evidence.
-5. Build the draft Jira backlog and delivery schedule from confirmed discovery and prepare the first fortnightly agenda for Ishtiaq Ahmad Anan.
+1. Privately report the exposed credentials found in `Project-B`, `propcalc`, and `backend` to Md Shaik Said and Ishtiaq Ahmad Anan through Mohita, treating them as compromised and never opening, using, or reproducing the values (RISK-009).
+2. Send the client the local-setup milestone update now that repository access and verification are complete, and record the wording actually sent.
+3. Hold the proposed client meeting on Tuesday, 25 August 2026 at 8:30 PM and confirm the application-to-repository mapping, per-application priorities, environments, and acceptance evidence.
+4. Keep `UGC08-3` blocked until the client confirms priorities and acceptance criteria; convert the candidate improvements identified in the state reports into agreed work only then.
+5. Complete the six individual research reports by 2026-08-30; the supervisor offered feedback on questions or draft sections.
 6. Obtain the five missing Atlassian email addresses and finish team access/assignment.
 7. Keep `UGC08-17` as planning-only until Semester 1 2027 scope and ownership are approved.
-8. Maintain the AI usage log and contribution evidence alongside the work, not at the end of semester.
