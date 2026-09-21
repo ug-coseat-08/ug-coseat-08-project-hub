@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-09-05",
+  "reviewed_on": "2026-09-21",
   "timezone": "Australia/Sydney",
   "project": {
     "code": "UG_COSEAT_08",
     "title": "Portfolio Rescue & Resilient AI Integration",
     "unit": "COS40005",
     "teaching_period": "Semester 2 2026",
-    "phase": "Sprint Zero planning and ConnectMyTask pre-sprint work",
+    "phase": "Sprint 1 ConnectMyTask delivery and investigation",
     "supervisor": "Dr Naveed Ali",
     "client_representative": "Md Shaik Said",
     "first_client_meeting_on": "2026-08-13",
-    "delivery_direction": "Prioritise ConnectMyTask and CuponZ for Semester 2, using Sprint 1 for approved development and Sprint 2 for cross-executed testing, defect correction, and readiness evidence before a production go/no-go decision.",
-    "scope_status": "Repository access and twelve-repository verification completed on 2026-08-20; ConnectMyTask and CuponZ prioritised by the client on 2026-08-25; exact repository boundary, reviewed improvement list, minimum alpha/readiness evidence, development access, and operational controls remain pending."
+    "delivery_direction": "Complete the approved ConnectMyTask increment first, then move to CuponZ; use Sprint 1 for reviewed development and investigation and Sprint 2 for cross-executed testing, defect correction, and readiness evidence before a production go/no-go decision.",
+    "scope_status": "Repository access and twelve-repository verification completed on 2026-08-20; ConnectMyTask and CuponZ prioritised on 2026-08-25; initial ConnectMyTask countries, provider KYC, dynamic currency/payment direction, mobile investigation, and sequence clarified on 2026-09-10; payout process, requester KYC, remaining country matrix, CuponZ detail, development access, and minimum acceptance evidence remain pending."
   },
   "team": [
     {"name": "Prattay Banik", "github": "prattaybanik03"},
@@ -34,7 +34,7 @@
       "project_key": "UGC08",
       "backlog_url": "https://ugcoseat08.atlassian.net/jira/software/projects/UGC08/boards/1/backlog",
       "workflow": ["Ready", "In Progress", "In Review", "Blocked", "Done"],
-      "planning_direction": "Keep work before Week 7 in the backlog or Sprint Zero. The unit permits either one clearly partitioned cross-product board or separate product boards; the final structure remains pending after the 2026-09-03 supervisor meeting.",
+      "planning_direction": "Keep work before Week 7 in the backlog or Sprint Zero. In Sprint 1, complete the reviewed ConnectMyTask KYC, currency/payment, payout-correction, and mobile-investigation work first, then move to the accepted CuponZ subset. The final one-board/two-board structure remains pending.",
       "client_scope_gate": {"key": "UGC08-3", "status": "Blocked"},
       "semester_1_2027_placeholder": {
         "key": "UGC08-17",
@@ -76,10 +76,13 @@
   "pending_confirmations": [
     "Client confirmation of the exact ConnectMyTask and CuponZ repository boundary",
     "Secure development-VPS, non-production configuration, service, and documentation access",
-    "Client/developer review of the proposed ConnectMyTask and CuponZ improvement list",
+    "Md Shaik Said confirmation of the provider payout flow and any additional ConnectMyTask requirements",
+    "Requester KYC scope, allowed documents, verification method, and configurable document rules",
+    "Country-specific forms, compliance rules, and final gateways for India, Pakistan, Sri Lanka, and Australia",
+    "Evidence-backed mobile implementation subset after the Sprint 1 run/test/investigation",
+    "Client/developer review of the remaining CuponZ improvement list and architecture boundary",
     "Alignment between the client's end-of-Sprint-2 readiness decision and the supervisor's semester alpha expectation",
     "Approved CuponZ replacement architecture, migration boundary, and preserved functionality",
-    "Approved ConnectMyTask country, form, currency, KYC, and payment-provider matrix",
     "Final Jira board structure and accurate representation of pre-sprint ConnectMyTask work in later sprint evidence",
     "Production decision authority, rollback, monitoring, and support expectations",
     "Verification that exposed credentials and historical keys were revoked or rotated",

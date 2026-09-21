@@ -35,6 +35,12 @@
 |---|---|---|---|---|
 | 2026-09-03 | Supervisor meeting | Draft—all six team members present, none absent; awaiting review | Sprint Zero and official sprint timing clarified; ConnectMyTask-first sequence reviewed; one submission with separate full plans for both products; weekly technical and non-technical evidence reinforced | [Minutes](meeting-minutes/supervisor/2026-09-03-supervisor-meeting.md) |
 
+## Week 6
+
+| Date | Meeting | Status | Key outcomes | Record |
+|---|---|---|---|---|
+| 2026-09-10 | Client meeting | Draft—five team members and Ishtiaq Ahmad Anan present; Prattay Banik absent; awaiting review | Initial ConnectMyTask countries, provider KYC, dynamic currency and payment direction clarified; Sprint 1 focus and mobile investigation agreed; payout reversal defect must be fixed before production | [Minutes](meeting-minutes/client/2026-09-10-client-meeting.md) |
+
 ## Meeting record standard
 
 Use one concise, consistent template for supervisor, client, and internal meetings. Each record should include:

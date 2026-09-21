@@ -1,6 +1,6 @@
 # Current Project State
 
-**Reviewed:** 2026-09-05
+**Reviewed:** 2026-09-21
 **Timezone:** Australia/Sydney
 **Confidence:** Evidence-backed summary; unresolved items remain explicit.
 
@@ -8,11 +8,11 @@
 
 - **Project:** UG_COSEAT_08 — Portfolio Rescue & Resilient AI Integration
 - **Unit:** COS40005, Semester 2 2026
-- **Current phase:** Sprint Zero planning and ConnectMyTask pre-sprint work
+- **Current phase:** Sprint 1 ConnectMyTask delivery and investigation
 - **Supervisor:** Dr Naveed Ali
 - **Client representative:** Md Shaik Said
-- **Delivery direction:** Rescue and modernise an initial set of existing client web applications through local setup, gap analysis, small approved development, testing, defect correction, and an approved deployment lifecycle.
-- **Scope status:** All twelve organisation repositories were accessed and verified on 2026-08-20. On 2026-08-25 the client prioritised ConnectMyTask and CuponZ for the two Semester 2 sprints, with Sprint 1 for development and Sprint 2 for testing and readiness assessment. The exact repository mapping, accepted improvement list, minimum alpha/readiness evidence, development access, and operational controls remain pending.
+- **Delivery direction:** Complete an approved ConnectMyTask increment first, then move to CuponZ; use evidence-backed development, independent testing, defect correction, and an approved deployment lifecycle.
+- **Scope status:** All twelve organisation repositories were accessed and verified on 2026-08-20. ConnectMyTask and CuponZ remain the Semester 2 priorities. On 2026-09-10 the client technical contact clarified the initial ConnectMyTask countries, provider KYC, dynamic currency/payment direction, Sprint 1 mobile investigation, and ConnectMyTask-first sequence. Payout-process confirmation, requester KYC, the remaining per-country matrix, detailed CuponZ scope, development access, and minimum acceptance/readiness evidence remain pending.
 
 At the first client meeting on 2026-08-13, the client directed the team to begin discovery across four applications: algorithmic trading, lead-generation coupons, property-portfolio calculations, and an Airtasker-like task marketplace. On 2026-08-20 the team received and verified access to all twelve repositories in the client's GitHub organisation; every repository was cloned, installed, and tested, and the consolidated evidence is recorded in the [repository state summary](../discovery/2026-08-20-repository-state.md). The proposed mapping is coupons ("CuponZ") to five repositories, the ConnectMyTask marketplace to three, PropCalc to one, and trading to `Project-B`, which currently exists only as a zip archive containing files that look like real credentials.
 
@@ -21,6 +21,8 @@ At the second client meeting on 2026-08-25, Md Shaik Said selected ConnectMyTask
 At the 2026-08-27 supervisor meeting, Dr Naveed Ali directed the team to begin work by the following week and to maintain separate Jira boards and GitHub project workspaces for ConnectMyTask and CuponZ. The team then adopted a provisional sequential working plan: all six members will begin with ConnectMyTask and move together to CuponZ. This is a planning choice, not approved product scope or contribution evidence; week targets and backlog contents remain subject to estimates, client review, and `UGC08-3`. The team needs one team plan, while the supervisor is awaiting unit-convener guidance on whether the two products require one combined project plan or two separate plans.
 
 At the 2026-09-03 supervisor meeting, Dr Naveed Ali relayed the unit convener's guidance that multiple products may be managed in either one clearly partitioned Jira board or separate boards, while each sprint still has one combined report. Work before Week 7 should remain in the backlog or Sprint Zero; the official sprints run in Weeks 7–9 and 10–12. The supervisor reviewed the team's ConnectMyTask-first sequence and its three provisional work pairs, with ConnectMyTask targeted for the end of the term break before the team concentrates on CuponZ. One team and project-plan submission is required, containing a complete separate project-plan section for each product. These planning clarifications do not resolve the client-scope gate: supported countries, mobile scope, accepted improvements, measurable criteria, and minimum outcomes remain pending.
+
+At the 2026-09-10 client meeting, Ishtiaq Ahmad Anan said the team's proposal aligned with the client's requirements and accepted the ConnectMyTask-first sequence. Bangladesh is the first market, followed by India, Pakistan, Sri Lanka, and Australia. Providers require KYC using national identification and professional certification where applicable; requester KYC remains unresolved. Static currency conversion should become dynamic, SSLCommerz should serve Bangladesh, and international gateways such as PayPal or Google Pay require a final country matrix. Sprint 1 should focus on ConnectMyTask KYC, currency/payment, and a bounded run/test/investigation of the existing mobile application. The team also identified a declined-withdrawal defect that does not restore the provider balance; Ishtiaq required that production-impacting issue to be solved before release. The detailed payout process, mobile implementation subset, CuponZ backlog, environments, and acceptance evidence keep `UGC08-3` partially blocked.
 
 ## Team and verified GitHub identities
 
@@ -50,7 +52,7 @@ GitHub for Atlassian is installed and restricted to the project repository; its 
 
 Jira workflow: `Ready` → `In Progress` → `In Review` → `Blocked` → `Done`.
 
-- `UGC08-3`: client-scope gate; still blocked pending review of the detailed ConnectMyTask/CuponZ improvement list, repository boundary, and acceptance evidence.
+- `UGC08-3`: client-scope gate; partially clarified on 2026-09-10, but still blocked for payout-process confirmation, requester KYC, remaining per-country configuration, mobile implementation scope, CuponZ detail, environments, and measurable acceptance evidence.
 - `UGC08-17`: Semester 1 2027 planning placeholder Feature; due 2027-03-01; it carries no approved implementation scope.
 - Preparation, Sprint 1, and Sprint 2 milestone work exists in Jira.
 - An Alpha release is a high-level target only; its content and acceptance criteria are unconfirmed.
@@ -71,14 +73,14 @@ Dates should be rechecked against Canvas before submission because Canvas remain
 ## Immediate priorities and blockers
 
 1. Follow up privately on the exposed credentials in `Project-B`, `propcalc`, `backend`, and reachable ConnectMyTask history; the client acknowledged the Project-B concern on 2026-08-25, but rotation and remediation remain unverified (RISK-009).
-2. Send Md Shaik Said and Ishtiaq Ahmad Anan the consolidated audit and a precise proposed improvement list for ConnectMyTask and CuponZ; record the wording and their review.
-3. Confirm the accepted repository boundary, CuponZ replatforming scope, ConnectMyTask country/payment matrix, detailed acceptance evidence, and the minimum outcome shared with the supervisor.
-4. Finalise whether Jira uses one partitioned board or separate boards; keep pre-sprint work in the backlog/Sprint Zero, preserve actual work dates, and prepare the single cross-product sprint-report evidence path.
-5. Continue the named ConnectMyTask pairs against reviewed backlog items and record attributable technical, review, and non-technical evidence for each member.
-6. Follow up the client email, confirm the next meeting, and resolve ConnectMyTask country, currency, KYC, payment-provider, and mobile-application scope plus the expected sprint demonstrations.
-7. Complete one team and project-plan submission with full, separate ConnectMyTask and CuponZ plan sections and address the supervisor's Week 5 feedback.
-8. Obtain approved development-VPS and non-production configuration access through a secure channel; document the deployment boundary and end-of-Sprint-2 go/no-go evidence.
-9. Keep `UGC08-3` blocked until the detailed scope and acceptance evidence are sufficient; convert only reviewed outcomes into the official sprint backlog.
-10. Retain attributable submission evidence for each individual research report; the 2026-09-03 meeting does not confirm all six submissions.
-11. Obtain the five missing Atlassian email addresses and finish team access/assignment.
+2. Convert the 2026-09-10 ConnectMyTask country, provider-KYC, dynamic-currency, payment, and mobile-investigation direction into measurable reviewed backlog criteria.
+3. Reproduce and fix the declined-withdrawal balance-reversal/atomicity defect with synthetic non-production evidence and independent review before production readiness approval (RISK-011).
+4. Follow up Ishtiaq Ahmad Anan's promised email and confirm the provider-payout process, requester KYC, allowed documents/verification method, country-specific forms/compliance, and gateways for India, Pakistan, Sri Lanka, and Australia.
+5. Assign and complete the bounded mobile run/test/investigation; treat any implementation beyond the reviewed findings as pending scope.
+6. Continue the named ConnectMyTask pairs against reviewed backlog items, record attributable evidence, and complete ConnectMyTask before moving the team to CuponZ.
+7. Review the CuponZ improvement list and architecture options, then select a feasible accepted subset without promising an unestimated replatforming.
+8. Finalise the Jira board structure, preserve actual work dates for the cross-product sprint report, and name ticket reviewers.
+9. Obtain approved development-VPS and non-production configuration access through a secure channel; document the deployment boundary and end-of-Sprint-2 go/no-go evidence.
+10. Keep `UGC08-3` blocked for the remaining details while converting only the confirmed 2026-09-10 outcomes into delivery work.
+11. Retain approximately 12.5 hours of contemporaneous technical and non-technical evidence per member each week; obtain the five missing Atlassian email addresses.
 12. Keep `UGC08-17` as planning-only until Semester 1 2027 scope and ownership are approved.
